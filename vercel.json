@@ -1,0 +1,16 @@
+{
+
+    "version":2,
+    "builds":[
+        {
+          "src":"./express.js",
+          "use":"@verecel/node"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"/"
+        }
+    ]
+}
